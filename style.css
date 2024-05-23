@@ -1,0 +1,93 @@
+
+#footer {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.display-4 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#introduction{
+  background-color: #F6F5F2;
+  height: 100vh;
+}
+
+#resume{
+  background-color: #F6F5F2;
+  height: 100vh;
+}
+
+#interests{
+  background-color: #DDE6ED;
+  height: 100vh;
+}
+
+#contact{
+  background-color: #DDE6ED;
+  height: 100vh;
+}
+.mypicture {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100rem;
+  margin-left: 38%;
+}
+
+.sonspicture{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100rem;
+}
+
+.ourpicture{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100rem;
+  margin-top: 1%;
+}
+
+.flagpicture{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100rem;
+  margin-top: 1%;
+}
+
+.newday{
+  font-style: italic;
+}
+
+.thefuture{
+  font-style: italic;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+
+.interests{
+  font-style: italic;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.contactme{
+  font-style: italic;
+  margin-top: 3%;
+  margin-left: 0%;
+}
+
+
+
+

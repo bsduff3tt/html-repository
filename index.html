@@ -1,36 +1,171 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Website</title>
-    </head>
-    <body>
-        <h1>Bill Duffett Portfolio!</h1>
-        <h2>I want to be a Web Developer</h2>
-        <a href="./public/movie-ranking.html">Movie ranking project</a>
-        <br /><br />
-        <img src="./assets/images/movie-ranking.png"/>
-        <br /> <br /> 
-        <a href="./public/birthday-invite.html">Birthday project</a>
-        <br /> <br />
-        <img src="./assets/images/birthday-invite.png"/>
-        <br /> <br />
-        <a href="./public/about.html">About me</a>  
-        <a href="./public/contact.html">Contact</a>
 
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <!-- Introduction -->
+  <section id="introduction">
+    <div class="px-1 pt-2 text-center">
+      <h1 class="display-4 fw-bold text-body-emphasis">I'm Bill Duffett</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">programmer, project manager, real estate agent, blackjack dealer</p>
+      </div>
+      <div class="overflow-hidden" style="max-height: 100vh;">
+        <div class="container px-4 mt-4">
+          <img src="photo-new-day.avif" class="img-fluid border rounded-4 shadow-md mb-4" alt="New Day Image" width="500" height="500" loading="lazy">
+        </div>
+        <p class="newday">"New day brings new opportunities!"</p>
+      </div>
+    </div>
+  </section>
+  <!-- Resume -->
+  <section id="resume">
+    <div class="container px-1" id="hanging-icons">
+      <img src="me3.jpg" class="mypicture" alt="My picture" width="100" height="100" loading="lazy">
+      <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+              <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Programmer</h3>
+            <p>Developed in many languages and database structures</p>
+            <li>Cobol</li>
+            <li>Natural</li>
+            <li>MQ Series</li>
+            <li>JCL</li>
+            <li>HTML/Bootstrap</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>IMS DB/DC, Adabas, DB2, SQL</li>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+              <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Project Manager</h3>
+            <p>Managed both Application and Infrastructure IT Projects</p>
+            <li>Airline Mechanic App</li>
+            <li>Airline Ground Ops App</li>
+            <li>Banking System App</li>
+            <li>New Data Centers</li>
+            <li>Migration of old servers to new VMs</li>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+              <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Real Estate Agent</h3>
+            <p>Performed duties of Buyer, Seller and Dual agencies</p>
+            <li>Property transactions small and large</li>
+            <li>Conventional, FHA, Veteran and Short Sales</li>
+            <li>Manage all types of inspections</li>
+            <li>Negotations between parties</li>
+            <li>Closing coordination</li>
+          </div>
+        </div>
+        <form action="./career.html" class="inline">
+          <button class="btn btn-secondary float-left btn-sm submit-button" >Full Resume</button>
+        </form>
+      </div>
+      <p class="thefuture">"The future belongs to those who learn more skills and combine them in creative ways!"</p>
+    </div>
+  </section>
+  <!-- My interests -->
+  <section id="interests">
+    <div class="container col-xxl-8 px-4 py-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="boys.jpg" class="sonspicture d-block mx-lg-auto img-fluid" alt="sons" width="300" height="10" loading="lazy">
+          <img src="cindyme.jpg" class=" ourpicture d-block img-fluid" alt="cindy me" width="300" height="10" loading="lazy">
+          <img src="flag.jpg" class=" flagpicture d-block mx-lg-auto img-fluid" alt="flag" width="300" height="10" loading="lazy">
+
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Interests</h1>
+          <p class="lead">Being a father is my passion and my inspiration for life. Babies to young adults was an incredible journey. Loved every second of it. </p>
+          <p class="lead">Doing anything with my significant other is very rewarding. Just going shopping to vacation trips is always a great time.</p>
+          <p class="lead">Playing and coordinating our Flag Football League has brought me great long lasting friends and lots of fun memorable times.</p>
+          <p class="lead">To stay healthy mentally, physically and emtionally.</p>
+        </div>
+      </div>
+      <p class="interests">"A man will fight harder for his interests than for his rights!"</p>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Contact Me</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="email">Email Address</h4>
+            <p>bsduff3tt@gmail.com</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-vibrate" viewBox="0 0 16 16">
+              <path d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+              <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M1.599 4.058a.5.5 0 0 1 .208.676A7 7 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A8 8 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208m12.802 0a.5.5 0 0 1 .676.208A8 8 0 0 1 16 8a8 8 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A7 7 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676M3.057 5.534a.5.5 0 0 1 .284.648A5 5 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A6 6 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284m9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8s-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8s-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="cell">Cell Phone</h3>
+            <p>412 310 8024</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
+              <path d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3m0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4m2.646 1A4 4 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3z"/>
+              <path d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="Address">Mailing Address</h3>
+            <p>410 Farmcrest Drive Oakdale PA 15017</p>
+          </div>
+        </div>
+      </div>
+      <p class="contactme">"Please hurry and contact me!"</p>
+    </div>  
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <footer class="py-4 my-4">
+        <ul class="nav justify-content-center border-bottom pb-1 mb-3">
+          <li class="nav-item">The End</li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Bill, Inc</p>
+      </footer>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
 </html>
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
